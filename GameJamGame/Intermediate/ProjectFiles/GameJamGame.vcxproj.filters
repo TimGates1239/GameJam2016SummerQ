@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\GameJamGame.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{9979577B-9270-4606-B4B4-6BEDDBF41F39}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\GameJamGame.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\GameJamGameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{3199F599-6E55-4664-90C6-DB8887A52021}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\GameJamGame">
+			<UniqueIdentifier>{1D195F4E-AA5B-46BC-A89A-883AE3AACEE1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\GameJamGame\GameJamGame.Build.cs">
+			<Filter>Source\GameJamGame</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\GameJamGame\GameJamGame.cpp">
+			<Filter>Source\GameJamGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GameJamGame\GameJamGame.h">
+			<Filter>Source\GameJamGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\GameJamGame\GameJamGameCharacter.cpp">
+			<Filter>Source\GameJamGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GameJamGame\GameJamGameCharacter.h">
+			<Filter>Source\GameJamGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\GameJamGame\GameJamGameGameMode.cpp">
+			<Filter>Source\GameJamGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GameJamGame\GameJamGameGameMode.h">
+			<Filter>Source\GameJamGame</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
